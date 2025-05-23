@@ -1,0 +1,74 @@
+.bookTable {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.reservation {
+  border: 2px solid var(--color-gold);
+  display: flex;
+  flex-direction: column;
+  gap: 7vh;
+  padding: 20px;
+  height: 70%;
+  width: 30%;
+}
+
+.reserveContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+  gap: 3vh;
+  height: 80%;
+}
+
+.booktable-h3 {
+  font-size: 2vw;
+}
+
+.booktable-h1 {
+  font-size: 5vw;
+}
+
+.options {
+  align-self: stretch;
+  height: 140px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 3rem;
+}
+
+select,
+.react-datepicker-wrapper {
+  padding: 5px;
+  min-height: 20%;
+  width: 90%;
+}
+
+.react-datepicker__input-container,
+.dateAndTime {
+  height: 100%;
+  width: 100%;
+}
+
+.bookTable-btn {
+  margin-left: 35%;
+}
+
+@media (max-width: 850px) {
+  .reservation {
+    height: 70%;
+    width: 70%;
+  }
+
+  .booktable-h3 {
+    font-size: 4vw;
+  }
+
+  .booktable-h1 {
+    font-size: 7vw;
+  }
+}

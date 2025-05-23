@@ -1,0 +1,116 @@
+.aboutUs {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+}
+
+.bgImg {
+  height: inherit;
+  max-width: 100%;
+  object-fit: cover;
+}
+
+.overlayImg {
+  position: absolute;
+  height: 50%;
+  width: 27%;
+  top: 26%;
+  left: 36%;
+}
+
+.knifeImg {
+  position: absolute;
+  max-height: 90%;
+  width: auto;
+  top: 6%;
+  left: 47%;
+}
+
+.aboutArticle {
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  row-gap: 5vh;
+  width: 35%;
+  top: 35%;
+  left: 6%;
+  height: inherit;
+  text-align: left;
+  justify-content: left;
+}
+
+.historyArticle {
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  row-gap: 5vh;
+  width: 35%;
+  top: 35%;
+  right: 8%;
+  height: inherit;
+  text-align: left;
+}
+
+.about-h2 {
+  font-family: var(--font-main);
+  color: var(--color-gold);
+  font-size: 3.5vw;
+}
+
+.about-p {
+  font-family: var(--font-main);
+  font-size: 1.3vw;
+}
+
+@media (max-width: 850px) {
+  .aboutUs {
+    height: 150vh;
+  }
+  .aboutArticle {
+    top: 30px;
+    left: 0;
+    width: 100%;
+    text-align: center;
+    align-items: center;
+  }
+
+  .about-h2 {
+    font-size: 7vw;
+  }
+
+  .about-p {
+    font-size: 2.5vw;
+  }
+
+  .overlayImg {
+    top: 30%;
+    width: 40%;
+    height: 30%;
+    left: 30%;
+  }
+
+  .knifeImg {
+    top: 20%;
+    transform: rotate(-90deg);
+    max-height: 50%;
+    width: auto;
+  }
+
+  .historyArticle {
+    top: 70%;
+    left: 0;
+    width: 100%;
+    text-align: center;
+    align-items: center;
+  }
+}
+
+@media (max-width: 450px) {
+  .knifeImg {
+    top: 30%;
+    transform: rotate(-90deg);
+    max-height: 30%;
+    width: 10%;
+  }
+}

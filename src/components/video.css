@@ -1,0 +1,30 @@
+.videoContainer {
+  background-color: var(--color-black);
+  position: relative;
+}
+
+video {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+
+.video-overlay {
+  position: absolute;
+  top: 0;
+  height: 100%;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.6);
+  display: grid;
+}
+
+.icon-container {
+  display: grid;
+  place-content: center;
+  place-items: center;
+  cursor: pointer;
+}
+
+.hide {
+  display: none;
+}

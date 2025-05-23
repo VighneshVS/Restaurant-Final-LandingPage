@@ -1,0 +1,131 @@
+.chefWords {
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  height: 100vh;
+  object-fit: contain;
+}
+
+.bgImg {
+  height: inherit;
+  max-width: 100%;
+}
+
+.chefContainer {
+  position: absolute;
+  width: 40%;
+  height: 70%;
+  top: 10%;
+  left: 7%;
+}
+
+.chefImg {
+  max-width: 100%;
+  max-height: 110%;
+}
+
+.quote {
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  top: 20%;
+  left: 45%;
+}
+
+.chef-h3 {
+  font-size: 2vw;
+}
+
+.chefName {
+  font-size: 2vw;
+  color: var(--color-gold);
+}
+
+.chef-h1 {
+  font-size: 4vw;
+}
+
+.quoteIcon {
+  width: 50px;
+  height: 70px;
+  margin-right: 20px;
+}
+
+.quoteImg {
+  height: 40px;
+  width: 40px;
+}
+
+.quotes,
+.chef-designation {
+  font-size: 1vw;
+}
+
+.chefAndFounder {
+  display: flex;
+  flex-direction: column;
+  row-gap: 7px;
+}
+
+.signImg {
+  margin-top: 15px;
+  height: 120px;
+  width: 250px;
+}
+
+@media (max-width: 850px) {
+  .chefWords {
+    height: 150vh;
+  }
+
+  .chefContainer {
+    height: auto;
+    width: auto;
+    top: 10px;
+    left: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .chefImg {
+    max-width: 55%;
+    max-height: 65%;
+    transform: translateX(-1%);
+    margin-top: 10px;
+  }
+
+  .quote {
+    max-width: fit-content;
+    padding: 20px;
+    left: 0;
+    top: 50%;
+  }
+
+  .chef-h3,
+  .chefName {
+    font-size: 4vw;
+  }
+
+  .chef-h1 {
+    font-size: 7vw;
+  }
+
+  .quotes,
+  .chef-designation {
+    font-size: 2vw;
+  }
+}
+
+@media (max-width: 450px) {
+  .chefContainer {
+    top: 50px;
+  }
+
+  .chefImg {
+    max-width: 80%;
+    max-height: 100%;
+    transform: translateX(-1%);
+    margin-top: 10px;
+  }
+}

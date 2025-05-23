@@ -1,0 +1,50 @@
+@import url("https://fonts.googleapis.com/css2?family=Cormorant+Upright:wght@300;400;500;600;700&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  --font-main: "Cormorant Upright", serif;
+  --font-sub: "Open Sans";
+}
+
+html {
+  --color-background: #0c0c0c;
+  --color-gold: #dcca87;
+  --color-grey: #aaa;
+  --color-white: #fff;
+  background-color: var(--color-background);
+}
+
+body {
+  margin: 0;
+}
+
+button {
+  padding: 5px;
+  width: 10vw;
+  height: 9vh;
+  background-color: var(--color-gold);
+  color: var(--color-background);
+  font: var(--font-main);
+  font-size: 1rem;
+}
+
+@media (max-width: 850px) {
+  button {
+    width: 20vw;
+  }
+}
+
+button:hover {
+  cursor: pointer;
+  animation: bg-color 0.3s forwards;
+}
+
+@keyframes bg-color {
+  100% {
+    border: 2px solid var(--color-gold);
+    color: var(--color-gold);
+    background-color: var(--color-background);
+  }
+}

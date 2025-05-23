@@ -1,0 +1,119 @@
+.awardsSection {
+  position: relative;
+  height: 100vh;
+}
+
+.bgImg {
+  max-width: 100%;
+  max-height: inherit;
+}
+
+.laurelsImg {
+  position: absolute;
+  top: 5%;
+  right: 3%;
+  width: 37%;
+}
+
+.laurelsSection {
+  position: absolute;
+  top: 10%;
+  left: 2.5%;
+  display: flex;
+  flex-direction: column;
+  row-gap: 5vh;
+}
+
+.headerSection {
+  display: flex;
+  flex-direction: column;
+  row-gap: 1vh;
+}
+
+.awards-h3 {
+  font-size: 2vw;
+}
+
+.awards-h1 {
+  font-size: 5vw;
+}
+
+.achievements1,
+.achievements2 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 3vw;
+}
+
+.award {
+  display: flex;
+  flex-direction: row;
+  column-gap: 2.5vw;
+  align-items: center;
+}
+
+.awardIcon {
+  width: 100px;
+  height: 100px;
+}
+
+.awardInfo {
+  display: flex;
+  flex-direction: column;
+  row-gap: 2vh;
+}
+
+.awardTitle {
+  margin: 0;
+  font-size: 2vw;
+  color: var(--color-gold);
+}
+
+.awardDesc {
+  font-size: 0.8vw;
+}
+
+@media (max-width: 850px) {
+  .awardsSection {
+    height: 200vh;
+  }
+  .laurelsImg {
+    top: 35px;
+    right: 20%;
+    width: 65%;
+    height: 45%;
+  }
+
+  .laurelsSection {
+    padding: 10px;
+    top: 50%;
+    left: 0;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .achievements1,
+  .achievements2 {
+    flex-direction: column;
+    gap: 5vh;
+  }
+
+  .award {
+    column-gap: 4vw;
+  }
+
+  .awardTitle,
+  .awards-h3 {
+    font-size: 4vw;
+  }
+
+  .awards-h1 {
+    font-size: 7vw;
+  }
+
+  .awardDesc {
+    font-size: 2vw;
+  }
+}
