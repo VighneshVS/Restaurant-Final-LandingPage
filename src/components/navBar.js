@@ -4,7 +4,7 @@ import resLogo from "../assets/gericht.png";
 import closeLogo from "../assets/logo.png";
 import { GiHamburgerMenu } from "react-icons/gi";
 
-export default navBar = () => {
+const navBar = () => {
   const [toggle, setToggle] = useState(false);
   const [showCloseIcon, toggleShowCloseIcon] = useState(false);
   const toggleMenu = () => {
@@ -68,4 +68,5 @@ export default navBar = () => {
       </header>
     </div>
   );
+  export default navBar;
 };
