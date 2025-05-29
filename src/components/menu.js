@@ -4,7 +4,7 @@ import data from "../constants/data.js";
 import MenuItems from "../addons/menuItems.js";
 import "./menu.css";
 
-export default menu = () => {
+const menu = () => {
   return (
     <article className="menuPage" id="menuPage">
       <section className="menuHead">
@@ -45,4 +45,5 @@ export default menu = () => {
       </div>
     </article>
   );
+export default menu;
 };
