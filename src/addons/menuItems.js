@@ -1,7 +1,7 @@
 import React from "react";
 import "./menuItems.css";
 
-export default MenuItems = ({ title, price, info }) => {
+const MenuItems = ({ title, price, info }) => {
   return (
     <li key={title.toString()} className="itemList">
       <div className="items">
@@ -12,4 +12,5 @@ export default MenuItems = ({ title, price, info }) => {
       <p className="itemInfo">{info}</p>
     </li>
   );
+export default MenuItems;
 };
