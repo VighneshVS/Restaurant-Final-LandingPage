@@ -12,5 +12,5 @@ const MenuItems = ({ title, price, info }) => {
       <p className="itemInfo">{info}</p>
     </li>
   );
-export default MenuItems;
 };
+export default MenuItems;
