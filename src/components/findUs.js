@@ -2,7 +2,7 @@ import React from "react";
 import findUsImage from "../assets/findus.png";
 import "./findUs.css";
 
-export default FindUs = () => {
+const FindUs = () => {
   return (
     <section className="findUs" id="findUs">
       <div className="details">
@@ -23,4 +23,5 @@ export default FindUs = () => {
       </figure>
     </section>
   );
+  export default FindUs;
 };
