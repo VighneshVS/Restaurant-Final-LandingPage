@@ -7,7 +7,7 @@ import laurels from "../assets/laurels.png";
 import bgImage from "../assets/bg.png";
 import "./awards.css";
 
-export default Awards = () => {
+const Awards = () => {
   return (
     <section className="awardsSection" id="awardsSection">
       <img className="bgImg" src={bgImage} alt="bgImage" />
@@ -66,4 +66,5 @@ export default Awards = () => {
       </article>
     </section>
   );
+  export default Awards;
 };
