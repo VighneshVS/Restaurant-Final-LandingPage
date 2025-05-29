@@ -1,7 +1,7 @@
 import React from "react";
 import "./home.css";
 import welcomeImage from "../assets/welcome.png";
-export default home = () => {
+const home = () => {
   return (
     <main className="homeSection" id="homeSection">
       <section className="menu">
@@ -25,4 +25,5 @@ export default home = () => {
       </section>
     </main>
   );
+  export default home;
 };
