@@ -3,7 +3,7 @@ import resVideo from "../assets/meal.mp4";
 import { BsFillPlayFill, BsPauseFill } from "react-icons/bs";
 import "./video.css";
 
-export default video = () => {
+const video = () => {
   const [videoState, setVideoState] = useState(false);
   const vidRef = useRef();
   const secRef = useRef();
@@ -40,4 +40,5 @@ export default video = () => {
       </section>
     </article>
   );
+export default video;
 };
