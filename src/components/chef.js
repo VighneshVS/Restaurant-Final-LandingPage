@@ -32,5 +32,5 @@ const Chef = () => {
       </section>
     </article>
   );
-  export default Chef;
 };
+export default Chef;

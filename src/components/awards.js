@@ -66,5 +66,5 @@ const Awards = () => {
       </article>
     </section>
   );
-  export default Awards;
 };
+export default Awards;

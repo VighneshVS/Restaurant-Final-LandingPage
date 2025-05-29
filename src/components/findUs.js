@@ -23,5 +23,5 @@ const FindUs = () => {
       </figure>
     </section>
   );
-  export default FindUs;
 };
+export default FindUs;

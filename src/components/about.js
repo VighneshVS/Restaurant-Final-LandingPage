@@ -34,5 +34,5 @@ const about = () => {
       </article>
     </section>
   );
-  export default about;
 };
+export default about;

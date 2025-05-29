@@ -46,5 +46,5 @@ const bookTable = () => {
       </div>
     </section>
   );
-export default bookTable;
 };
+export default bookTable;

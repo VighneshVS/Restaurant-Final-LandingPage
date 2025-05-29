@@ -40,5 +40,5 @@ const video = () => {
       </section>
     </article>
   );
-export default video;
 };
+export default video;

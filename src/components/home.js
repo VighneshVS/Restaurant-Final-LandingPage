@@ -25,5 +25,5 @@ const home = () => {
       </section>
     </main>
   );
-  export default home;
 };
+export default home;

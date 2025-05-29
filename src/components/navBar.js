@@ -68,5 +68,5 @@ const navBar = () => {
       </header>
     </div>
   );
-  export default navBar;
 };
+export default navBar;

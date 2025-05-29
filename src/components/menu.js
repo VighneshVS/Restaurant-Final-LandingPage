@@ -45,5 +45,5 @@ const menu = () => {
       </div>
     </article>
   );
-export default menu;
 };
+export default menu;
