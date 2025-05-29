@@ -5,7 +5,7 @@ import quoteImage from "../assets/quote.png";
 import signImage from "../assets/sign.png";
 import "./chef.css";
 
-export default Chef = () => {
+const Chef = () => {
   return (
     <article className="chefWords" id="chefWords">
       <img className="bgImg" src={bgImage} altName="bgImage" />
@@ -32,4 +32,5 @@ export default Chef = () => {
       </section>
     </article>
   );
+  export default Chef;
 };
