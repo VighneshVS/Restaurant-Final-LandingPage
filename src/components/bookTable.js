@@ -4,7 +4,7 @@ import DatePicker from "react-datepicker";
 import "./bookTable.css";
 import "react-datepicker/dist/react-datepicker.css";
 
-export default bookTable = () => {
+const bookTable = () => {
   const [resDate, setResDate] = useState(null);
 
   const filTime = (time) => {
@@ -46,4 +46,5 @@ export default bookTable = () => {
       </div>
     </section>
   );
+export default bookTable;
 };
