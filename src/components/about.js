@@ -4,7 +4,7 @@ import bgImage from "../assets/bg.png";
 import overlayImage from "../assets/G.png";
 import knifeImage from "../assets/knife.png";
 
-export default about = () => {
+const about = () => {
   return (
     <section className="aboutUs" id="aboutUs">
       <img className="bgImg" src={bgImage} alt="background-image" />
@@ -34,4 +34,5 @@ export default about = () => {
       </article>
     </section>
   );
+  export default about;
 };
